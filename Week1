@@ -34,6 +34,7 @@ class AppleBasket:
  The constructor should initialize two instance variables from those inputs: name and amt. 
  Add a string method so that when you print an instance of BankAccount, 
  you see "Your account, [name goes here], has [start_amt goes here] dollars." 
+ Create an instance of this class with "Bob" as the name and 100 as the amount. Save this to the variable t1.
  
  class BankAccount ():
     def __init__(self,name,amt):
@@ -44,4 +45,4 @@ class AppleBasket:
 t1 = BankAccount("Bob",100)
 print(t1)
 
- Create an instance of this class with "Bob" as the name and 100 as the amount. Save this to the variable t1.
+
